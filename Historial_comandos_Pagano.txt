@@ -1,0 +1,272 @@
+pwd
+echo hola
+echo buen dia
+echo $HOME
+LS
+ls
+ls -l
+cat texto.txt
+cat texto1.txt
+mkdir clase4
+ls -l
+cd clase4/
+pwd
+cat > texto1.txt
+ls -l
+cat texto1.txt 
+ls -l
+cat << FIN > texto2.txt
+linea 4
+linea 5
+linea6
+FIN
+
+ls -l
+cat texto2.txt 
+cat *.txt
+cat texto1.txt  >> texto2.txt 
+cat << EQF >texto3.txt
+linea 7
+linea 8
+linea 9
+textoEQF
+EQF
+
+ls -l
+cat texto1.txt texto3.txt > texto4.txt
+ls -l
+cat texto4.txt 
+echo hola
+echo hola > hola.txt
+ls -l
+cat hola.txt
+echo chau
+echo chau >> hola
+echo chau >> hola.txt
+cat hola.txt
+man grep
+grep chau hola.txt
+grep -i CHAU hola.txt
+cat texto4.txt 
+grep 7 texto4.txt 
+grep 7 texto4.txt > filtro7.txt
+ls -l
+cat filtro7.txt 
+grep 8 texto4.txt 
+grep 8 texto4.txt > texto1.txt 
+cat texto1.txt 
+mihistorial.txt
+cat texto1.txt 
+history
+cd ..
+pwd
+tree
+apt install tree
+sudo apt install tree
+tree
+pwd
+cd clase4
+pwd
+touch texto5.txt
+ls 0l
+ls -l
+cp texto2.txt textocp.txt
+ls -l
+cat textocp.txt 
+cat texto2.txt 
+mv textocp.txt textocp2.txt
+ls -l
+rm textocp2.txt /home/osboxes
+mv textocp2.txt /home/osboxes
+ls -l
+mv mihistorial.txt /home/osboxes
+mv mihistorial.txt /home/osboxes/
+ls -l
+mv texto5.txt /home/osboxes/
+ls -l
+ls -l /home/osboxes
+cd ..
+rm clase4/
+rm -r clase4/
+ls -l
+whoami
+id
+w
+/home$ mkdir clase4
+pwd
+ls -l
+cd..
+cd ..
+pwd
+ls -l
+/home$ sudo mkdir clase4
+cd clase4
+ls -l
+mv texto5.txt /home/osboxes/
+cd vagrant
+cd osboxes
+pwd
+mkdir dir1 dir2 dir3
+tree
+ls -l
+mkdir -p
+mkdir -p dog1/dog2/dog3
+tree
+mkdir -p {clase1,clase2}/{teoria,practica}
+tree
+mkdir -p {compra1/vendedor{1..3},compra2/{vendedor{1..3},repositor}
+tree
+rm /r {compra1
+rm -r {compra1
+mkdir -p {compra1/vendedor{1..3},compra2/{vendedor{1..3},repositor}}
+tree
+cat /etc/passwd
+cat /et
+cat /etc/shadow
+cat sudo /etc/shadow
+sudo cat /etc/shadow
+sudo groupadd Alumnos
+cat /etc/group
+usedadd -m -s /bin/bash -c "Alumno lucca" -G Alumnos lucca
+sudo usedadd -m -s /bin/bash -c "Alumno lucca" -G Alumnos lucca
+sudo userdadd -m -s /bin/bash -c "Alumno lucca" -G Alumnos lucca
+sudo useradd -m -s /bin/bash -c "Alumno lucca" -G Alumnos lucca
+cat /etc/group
+passwd lucca
+sudo passwd lucca
+su lucca
+su - lucca
+w
+history
+exit
+ls -l
+mkdir clase 5
+cd repogit
+pwd
+git clone git@github.com:LuccaPagano/TP1_AySO_114_Pagano_Lucca.git
+cd TP1_AySO_114_Pagano_Lucca/
+PWD
+pwd
+ls -l
+cat /etc/os-release
+HOME-URL
+man grep
+grep HOME-URL /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i
+grep << -i > Home_url /etc/os-release
+FIN
+-i
+
+grep -i Home_url /etc/os-release > datos_url.txt
+home-url
+HOME-URL
+grep -i home-url /etc/os-release > datos_url.txt
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release > datos_url.txt
+id -un
+echo “Usuario=$(whoami)” > datos_usuario.txt 
+whoami
+“Usuario=$(whoami)” > datos_usuario.txt
+echo “Usuario=$(whoami)” > datos_usuario.txt
+cat datos_usuario.txt 
+echo “UsPagano(whoami)” > datos_usuario.txt
+echo “Usuario=$(Lucca_Paganohoami)” > datos_usuario.txt
+echo “Usuario=$(whoam > datos_usuario.txt
+
+
+
+
+y
+pwd
+git clone git@github.com:LuccaPagano/TP1_AySO_114_Pagano_Lucca.git
+cd repogit
+cd TP1_AySO_114_Pagano_Lucca/
+pwd
+ls -l
+echo "Usuario= Lucca_Pagano" > datos_usuario.txt
+git add .
+git config --global user.email "luccap1903@gmail.com"
+git config --global user.name "ciro1903"
+git config --global user.name
+git config --global user.email
+ls
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_usuarios.txt"
+git status
+git add .
+git commit -m "feat: agregar datos_usuario.txt con información del usuario"
+git push origin main
+git reset --soft HEAD~1
+git status
+git push
+git pull origin main
+git push
+grep "model name" /proc/cpuinfo | head -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git push origin main
+git status
+cat <<EOF >> README.md
+Alumno: Lucca Pagano
+Division: 114
+Turno: Mañan
+EOF
+
+git add README.md datos_usuario.txt
+git commit -m "feat: Añadiendo información del alumno al README.md"
+git push origin main
+git status
+glow README.md
+sudo apt install glow
+glow README.md
+cat README.md 
+nano README.md 
+cat README.md 
+pwd
+cd $HOME
+pwd
+mkdir -p ~/materia{1,2}/uni{1,2,3}
+ls
+ls -R ~/materia1 ~/materia2
+tree
+cat << 'EOF' > script_dir.sh
+EOF
+
+cat << 'EOF' > script_dir.sh
+#!/bin/bash
+mkdir -p ~/materia{1,2}/uni{1,2,3}
+EOF
+
+chmod +x script_dir.sh
+git add script_dir.sh
+pwd
+cd TP1_AySO_114_Pagano_Lucca/
+ls -la
+cat << 'EOF' > script_dir.sh
+#!/bin/bash
+mkdir -p ~/materia{1,2}/uni{1,2,3}
+EOF
+
+chmod +x script_dir.sh
+ls -R ~/materia1 ~/materia2
+git add script_dir.sh
+git commit -m "ADD: Añadiendo script"
+git push
+git pull origin main
+git add .
+git commit -m "ADD: Añadiendo script"
+echo 'mkdir -p ~/materia{1,2}/uni{1,2,3}' > script_dir.sh
+chmod +x script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push origin main
+git push
+git pull origin main
+git pull --no-rebase origin main
+git add script_dir.sh
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
