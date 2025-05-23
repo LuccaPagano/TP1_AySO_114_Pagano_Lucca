@@ -321,3 +321,14 @@ cat Historial_comandos_Pagano.txt
 rm Historial_comandos_Pagano.txt 
 ls -l
 history -a
+cp ~/.bash_history ./Historial_comandos_Apellido.txt
+git add .
+git commit -m "ADD: Historial de comandos de Apellido"
+git push
+ls -l
+cp
+cp Historial_comandos_Apellido.txt 
+cp Historial_comandos_Pagano.txt 
+rm Historial_comandos_Apellido.txt 
+ls -l
+history -a
